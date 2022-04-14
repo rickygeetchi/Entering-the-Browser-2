@@ -1,10 +1,8 @@
 const myBox = document.getElementById('my-box');
-let myBoxWidth = myBox.style.width;
-let myBoxHeight = myBox.style.height;
-let myBoxColor = myBox.style.backgroundColor
-myBoxWidth = "50px"
-myBoxHeight = "50px"
-myBoxColor = "red"
+let myBoxWidth = "50px";
+let myBoxHeight = "50px";
+let myBoxColor = "red"
+
 
 function changeColor(){
     if (myBoxColor == 'red'){
