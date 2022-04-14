@@ -1,7 +1,7 @@
 const myBox = document.getElementById('my-box');
 let myBoxWidth = "50px";
 let myBoxHeight = "50px";
-let myBoxColor = "red"
+let myBoxColor = "red";
 
 
 function changeColor(){
