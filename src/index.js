@@ -4,9 +4,10 @@ let myBoxHeight = myBox.style.height;
 let myBoxColor = myBox.style.backgroundColor
 myBoxWidth = "50px"
 myBoxHeight = "50px"
+myBoxColor = "red"
 
 function changeColor(){
-    if (myBoxColor == ''){
+    if (myBoxColor == 'red'){
         myBoxColor = 'blue';}
     else if (myBoxColor == 'blue'){
         myBoxColor = 'purple';
@@ -25,7 +26,7 @@ function changeColor(){
     }
 
     else {
-        myBoxColor = 'blue'
+        myBoxColor = 'red'
     }
     myBox.style.backgroundColor = myBoxColor;
 }
